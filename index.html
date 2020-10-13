@@ -1,20 +1,174 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-  <meta http-equiv="x-ua-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="x-ua-Compatible" content="ie=edge">
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-  <title>Clifton's Portfolio</title>
-</head>
-<body>
+    <title>Clifton's Portfolio</title>
+  </head>
+  <body>
+    <div class="overall-wrapper">
+      <header class="header">
+        <h1 class="sr-only">Clifton Davies - Full-Stack Engineer Portfolio</h1>
 
-  <!--Scripts for jQuery, Popper, Bootstrap, Font Awesome-->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/feec7411d6.js" crossorigin="anonymous"></script>
-</body>
+        <nav class="top-nav navbar navbar-expand-lg navbar-light bg-light">
+          <h2 class="sr-only">Site Navigation</h2>
+
+          <a class="navbar-brand" href="#">CD</a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" href="#">Portfolio</a>
+              <a class="nav-link active" href="#">About</a>
+              <a class="nav-link active" href="#">Contact</a>
+              <a class="nav-link active" href="#">Resume</a>
+            </div>
+          </div>
+        </nav>
+
+        <section class="intro">
+          <img src="#" alt="professional photo">
+
+          <h2>Hello! I'm Clifton. I am a Full-Stack Engineer based in London.</h2>
+
+          <ul>
+            <li><a href="#"><!--github icon--></a></li>
+            <li><a href="#"><!--linkedin icon--></a></li>
+            <li><a href="#"><!--twitter icon--></a></li>
+            <li><a href="#"><!--email icon--></a></li>
+          </ul>
+
+          <a href="#"><!--downward arrow icon--></a>
+        </section>
+
+        <!--Optional: div with lines effect-->
+      </header>
+
+      <main class="main-wrapper">
+        <h2 class="sr-only">Main Page Wrapper</h2>
+
+        <section class="side-projects">
+          <h3>Recent Side Projects</h3>
+
+          <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="#" class="card-img-top" alt="Screenshot for 1st side project">
+
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+
+                  <ul>
+                    <li class="badge">tech 1</li>
+                    <li class="badge">tech 2</li>
+                    <li class="badge">tech 3</li>
+                    <li class="badge">tech 4</li>
+                  </ul>
+
+                  <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="#" class="card-img-top" alt="Screenshot for 2nd side project">
+
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+
+                  <ul>
+                    <li class="badge">tech 1</li>
+                    <li class="badge">tech 2</li>
+                    <li class="badge">tech 3</li>
+                    <li class="badge">tech 4</li>
+                  </ul>
+
+                  <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="#" class="card-img-top" alt="Screenshot for 3rd side project">
+
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+
+                  <ul>
+                    <li class="badge">tech 1</li>
+                    <li class="badge">tech 2</li>
+                    <li class="badge">tech 3</li>
+                    <li class="badge">tech 4</li>
+                  </ul>
+
+                  <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="about">
+          <h3 class="sr-only">About</h3>
+
+          <section class="narrative">
+            <h4>About me</h4>
+
+            <p>In three sentences describe who you are as a professional.</p>
+          </section>
+
+          <ul class="skills list-group list-group-flush">
+            <li class="list-group-item">Languages
+              <ul class="list-group list-group-horizontal-md">
+                <li class="list-group-item">Cras</li>
+                <li class="list-group-item">Dapibus</li>
+                <li class="list-group-item">Morbi</li>
+              </ul>
+            </li>
+            <li class="list-group-item">Frameworks
+              <ul class="list-group list-group-horizontal-md">
+                <li class="list-group-item">Cra</li>
+                <li class="list-group-item">Dapibus</li>
+                <li class="list-group-item">Morbi</li>
+              </ul>
+            </li>
+            <li class="list-group-item">Other skills
+              <ul class="list-group list-group-horizontal-md">
+                <li class="list-group-item">odio</li>
+                <li class="list-group-item">facilisis</li>
+                <li class="list-group-item">risus</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <a href="#"><!--Link to send email--></a>
+
+        <ul>
+          <li><a href="#"><!--github icon--></a></li>
+          <li><a href="#"><!--linkedin icon--></a></li>
+          <li><a href="#"><!--twitter icon--></a></li>
+        </ul>
+
+        <span>&copy; 2020 Clifton Davies</span>
+      </footer>
+    </div>
+
+    <!--Scripts for jQuery, Popper, Bootstrap, Font Awesome-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/feec7411d6.js" crossorigin="anonymous"></script>
+  </body>
 </html>

@@ -1,0 +1,62 @@
+// Colors
+$portfolio-background-color: #172b4d;
+$portfolio-main-color: #c5e9da;
+
+// Fonts
+
+
+.overall-wrapper {
+  background: $portfolio-background-color;
+
+  .header {
+    height: 100vh;
+  }
+
+  .navbar {
+    background: $portfolio-background-color;
+
+    .navbar-brand {
+      font: 800 25px/20px "Inter", sans-serif;
+      color: $portfolio-main-color;
+    }
+
+    .nav-link {
+      font: 600 15px/20px "Inter", sans-serif;
+      color: $portfolio-main-color;
+    }
+  }
+
+  .intro {
+    top: 56px;
+    // margin: 0 auto;
+    max-width: 920px;
+    padding-top: 40px;
+
+    img {
+      border: 2px solid $portfolio-main-color;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      object-position: 50% 15%;
+    }
+
+    h2 {
+      font: 800 45px/60px "Inter", sans-serif;
+      letter-spacing: 0.37px;
+      color: $portfolio-main-color;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    a {
+      color: $portfolio-main-color;
+    }
+
+    .down-arrow {
+      bottom: -80px;
+      border: 2px solid $portfolio-main-color;
+    }
+  }
+}

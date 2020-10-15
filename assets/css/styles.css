@@ -1,0 +1,56 @@
+.overall-wrapper {
+  background: #172b4d;
+}
+
+.overall-wrapper .header {
+  height: 100vh;
+}
+
+.overall-wrapper .navbar {
+  background: #172b4d;
+}
+
+.overall-wrapper .navbar .navbar-brand {
+  font: 800 25px/20px "Inter", sans-serif;
+  color: #c5e9da;
+}
+
+.overall-wrapper .navbar .nav-link {
+  font: 600 15px/20px "Inter", sans-serif;
+  color: #c5e9da;
+}
+
+.overall-wrapper .intro {
+  top: 56px;
+  max-width: 920px;
+  padding-top: 40px;
+}
+
+.overall-wrapper .intro img {
+  border: 2px solid #c5e9da;
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 15%;
+     object-position: 50% 15%;
+}
+
+.overall-wrapper .intro h2 {
+  font: 800 45px/60px "Inter", sans-serif;
+  letter-spacing: 0.37px;
+  color: #c5e9da;
+}
+
+.overall-wrapper .intro ul {
+  list-style: none;
+}
+
+.overall-wrapper .intro a {
+  color: #c5e9da;
+}
+
+.overall-wrapper .intro .down-arrow {
+  bottom: -80px;
+  border: 2px solid #c5e9da;
+}

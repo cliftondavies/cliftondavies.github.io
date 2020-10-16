@@ -37,7 +37,7 @@
 }
 
 .overall-wrapper .intro h2 {
-  font: 800 2.8125rem/60px "Inter", sans-serif;
+  font: 800 2.8125rem/58px "Inter", sans-serif;
   letter-spacing: 0.37px;
   color: #c5e9da;
 }
@@ -55,6 +55,45 @@
 .overall-wrapper .intro .fab {
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
+}
+
+.overall-wrapper .projects h3 {
+  font: 700 38px/50px "Inter", sans-serif;
+  color: #c5e9da;
+}
+
+.overall-wrapper .projects .card {
+  border: 1px solid #c5e9da;
+}
+
+.overall-wrapper .projects .project-img {
+  width: 100%;
+  height: 252px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.overall-wrapper .projects .project-body {
+  background: #172b4d;
+}
+
+.overall-wrapper .projects .card-title {
+  font: 600 22px/32px "Poppins", sans-serif;
+  color: #c5e9da;
+}
+
+.overall-wrapper .projects .badge {
+  font: 600 12px/16px "Inter", sans-serif;
+  letter-spacing: 0.03em;
+  background: #ebf0ee;
+  color: #172b4d;
+}
+
+.overall-wrapper .projects .btn {
+  font: 500 16px/24px "Inter", sans-serif;
+  letter-spacing: 0.03em;
+  background: #c5e9da;
+  color: #172b4d;
 }
 
 .navbar .navbar-brand:hover,
@@ -75,4 +114,17 @@
   border: 1px solid #c5e9da;
   background: #c5e9da;
   color: #172b4d;
+}
+
+.projects .btn:hover {
+  border: 1px solid #c5e9da;
+  background: #172b4d;
+  color: #c5e9da;
+}
+
+.projects .card:hover {
+  -webkit-animation: pulse;
+          animation: pulse;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }

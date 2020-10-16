@@ -9,7 +9,7 @@ $portfolio-main-color: #c5e9da;
   background: $portfolio-background-color;
 
   .header {
-    height: 100vh;
+    min-height: 100vh;
   }
 
   .navbar {
@@ -28,7 +28,6 @@ $portfolio-main-color: #c5e9da;
 
   .intro {
     top: 56px;
-    // margin: 0 auto;
     max-width: 920px;
     padding-top: 40px;
 
@@ -41,22 +40,29 @@ $portfolio-main-color: #c5e9da;
     }
 
     h2 {
-      font: 800 45px/60px "Inter", sans-serif;
+      font: 800 2.8125rem/60px "Inter", sans-serif;
       letter-spacing: 0.37px;
       color: $portfolio-main-color;
     }
 
     ul {
       list-style: none;
+      right: 2.25%;
     }
 
     a {
       color: $portfolio-main-color;
     }
+  }
+}
 
-    .down-arrow {
-      bottom: -80px;
-      border: 2px solid $portfolio-main-color;
+.intro {
+  .fas,
+  .fab {
+    &:hover {
+      border: 1px solid $portfolio-main-color;
+      background: $portfolio-main-color;
+      color: $portfolio-background-color;
     }
   }
 }

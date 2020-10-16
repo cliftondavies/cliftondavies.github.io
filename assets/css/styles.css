@@ -51,6 +51,25 @@
   color: #c5e9da;
 }
 
+.overall-wrapper .intro .fas,
+.overall-wrapper .intro .fab {
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .nav-link:hover {
+  -webkit-animation: pulse;
+          animation: pulse;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  font-size: 16px;
+}
+
+.navbar .navbar-brand:hover {
+  font-size: 25px;
+}
+
 .intro .fas:hover,
 .intro .fab:hover {
   border: 1px solid #c5e9da;

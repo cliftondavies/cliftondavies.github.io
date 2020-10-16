@@ -53,6 +53,28 @@ $portfolio-main-color: #c5e9da;
     a {
       color: $portfolio-main-color;
     }
+
+    .fas,
+    .fab {
+      transition: all .5s ease;
+    }
+  }
+}
+
+.navbar {
+  .navbar-brand,
+  .nav-link {
+    &:hover {
+      animation: pulse;
+      animation-duration: 2s;
+      font-size: 16px;
+    }
+  }
+
+  .navbar-brand {
+    &:hover {
+      font-size: 25px;
+    }
   }
 }
 

@@ -73,8 +73,9 @@
      object-fit: cover;
 }
 
-.overall-wrapper .projects .project-body {
+.overall-wrapper .projects .card-body {
   background: #172b4d;
+  border-top: 1px solid #c5e9da;
 }
 
 .overall-wrapper .projects .card-title {
@@ -96,13 +97,50 @@
   color: #172b4d;
 }
 
+.overall-wrapper .projects .modal-content {
+  background: #172b4d;
+}
+
+.overall-wrapper .projects .modal-title {
+  font: 700 24px/32px "Inter", sans-serif;
+  color: #c5e9da;
+}
+
+.overall-wrapper .projects span {
+  color: #c5e9da;
+}
+
+.overall-wrapper .projects .modal-body {
+  background: #172b4d;
+}
+
+.overall-wrapper .projects .modal-img {
+  width: 100%;
+  height: 370px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.overall-wrapper .projects .card-text {
+  font: 400 15px/26px "Inter", sans-serif;
+  color: #c5e9da;
+}
+
+.overall-wrapper .projects ul {
+  list-style: none;
+}
+
+.overall-wrapper .projects #middle-img {
+  -o-object-position: 35% 9%;
+     object-position: 35% 9%;
+}
+
 .navbar .navbar-brand:hover,
 .navbar .nav-link:hover {
   -webkit-animation: pulse;
           animation: pulse;
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
-  font-size: 16px;
 }
 
 .navbar .navbar-brand:hover {
@@ -122,9 +160,9 @@
   color: #c5e9da;
 }
 
-.projects .card:hover {
+.projects .project-card:hover {
   -webkit-animation: pulse;
           animation: pulse;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: .8s;
+          animation-duration: .8s;
 }

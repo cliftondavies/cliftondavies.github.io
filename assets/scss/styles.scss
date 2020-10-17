@@ -70,18 +70,17 @@ $badge-background: #ebf0ee;
 
     .card {
       border: 1px solid $portfolio-main-color;
-      // border-radius: 8px;
     }
 
     .project-img {
       width: 100%;
       height: 252px;
       object-fit: cover;
-      // object-position: 50% 50%;
     }
 
-    .project-body {
+    .card-body {
       background: $portfolio-background-color;
+      border-top: 1px solid $portfolio-main-color;
     }
 
     .card-title {
@@ -102,6 +101,42 @@ $badge-background: #ebf0ee;
       background: $portfolio-main-color;
       color: $portfolio-background-color;
     }
+
+    .modal-content {
+      background: $portfolio-background-color;
+    }
+
+    .modal-title {
+      font: 700 24px/32px "Inter", sans-serif;
+      color: $portfolio-main-color;
+    }
+
+    span {
+      color: $portfolio-main-color;
+    }
+
+    .modal-body {
+      background: $portfolio-background-color;
+    }
+
+    .modal-img {
+      width: 100%;
+      height: 370px;
+      object-fit: cover;
+    }
+
+    .card-text {
+      font: 400 15px/26px "Inter", sans-serif;
+      color: $portfolio-main-color;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    #middle-img {
+      object-position: 35% 9%;
+    }
   }
 }
 
@@ -111,7 +146,6 @@ $badge-background: #ebf0ee;
     &:hover {
       animation: pulse;
       animation-duration: 2s;
-      font-size: 16px;
     }
   }
 
@@ -142,10 +176,10 @@ $badge-background: #ebf0ee;
     }
   }
 
-  .card {
+  .project-card {
     &:hover {
       animation: pulse;
-      animation-duration: 1s;
+      animation-duration: .8s;
     }
   }
 }

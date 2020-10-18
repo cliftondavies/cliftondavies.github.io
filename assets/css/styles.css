@@ -22,7 +22,7 @@
 
 .overall-wrapper .intro {
   top: 56px;
-  max-width: 920px;
+  width: 69.64%;
   padding-top: 40px;
 }
 
@@ -55,6 +55,10 @@
 .overall-wrapper .intro .fab {
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
+}
+
+.overall-wrapper .main-wrapper {
+  width: 86.3%;
 }
 
 .overall-wrapper .projects h3 {
@@ -141,7 +145,8 @@
 }
 
 .overall-wrapper .about p {
-  font: 400 16px/24px "Inter", sans-serif;
+  padding-right: 100px;
+  font: 400 16px/28px "Inter", sans-serif;
   color: #c5e9da;
 }
 

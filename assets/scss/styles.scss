@@ -7,6 +7,7 @@ $badge-background: #ebf0ee;
 
 
 .overall-wrapper {
+  // max-width: 1310px;
   background: $portfolio-background-color;
 
   .header {
@@ -29,7 +30,7 @@ $badge-background: #ebf0ee;
 
   .intro {
     top: 56px;
-    max-width: 920px;
+    width: 69.64%;
     padding-top: 40px;
 
     img {
@@ -59,6 +60,11 @@ $badge-background: #ebf0ee;
     .fab {
       transition: all .5s ease;
     }
+  }
+
+  .main-wrapper {
+    width: 86.3%;
+    // margin: 0 auto;
   }
 
   .projects {
@@ -147,7 +153,8 @@ $badge-background: #ebf0ee;
     }
 
     p {
-      font: 400 16px/24px "Inter", sans-serif;
+      padding-right: 100px;
+      font: 400 16px/28px "Inter", sans-serif;
       color: $portfolio-main-color;
     }
 

@@ -138,6 +138,33 @@ $badge-background: #ebf0ee;
       object-position: 35% 9%;
     }
   }
+
+  .about {
+
+    h4 {
+      font: 800 36px/38px "Inter", sans-serif;
+      color: $portfolio-main-color;
+    }
+
+    p {
+      font: 400 16px/24px "Inter", sans-serif;
+      color: $portfolio-main-color;
+    }
+
+    li {
+      background: $portfolio-background-color;
+      color: $portfolio-main-color;
+    }
+
+    .skill-heading {
+      font: 600 20px/21px "Inter", sans-serif;
+      border-bottom-color: $portfolio-main-color;
+    }
+
+    .skill-list {
+      font: 400 16px/24px "Inter", sans-serif;
+    }
+  }
 }
 
 .navbar {

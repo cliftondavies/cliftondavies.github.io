@@ -135,6 +135,30 @@
      object-position: 35% 9%;
 }
 
+.overall-wrapper .about h4 {
+  font: 800 36px/38px "Inter", sans-serif;
+  color: #c5e9da;
+}
+
+.overall-wrapper .about p {
+  font: 400 16px/24px "Inter", sans-serif;
+  color: #c5e9da;
+}
+
+.overall-wrapper .about li {
+  background: #172b4d;
+  color: #c5e9da;
+}
+
+.overall-wrapper .about .skill-heading {
+  font: 600 20px/21px "Inter", sans-serif;
+  border-bottom-color: #c5e9da;
+}
+
+.overall-wrapper .about .skill-list {
+  font: 400 16px/24px "Inter", sans-serif;
+}
+
 .navbar .navbar-brand:hover,
 .navbar .nav-link:hover {
   -webkit-animation: pulse;

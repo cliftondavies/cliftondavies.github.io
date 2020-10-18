@@ -3,11 +3,7 @@ $portfolio-background-color: #172b4d;
 $portfolio-main-color: #c5e9da;
 $badge-background: #ebf0ee;
 
-// Fonts
-
-
 .overall-wrapper {
-  // max-width: 1310px;
   background: $portfolio-background-color;
 
   .header {
@@ -49,7 +45,6 @@ $badge-background: #ebf0ee;
 
     ul {
       list-style: none;
-      right: 2.25%;
     }
 
     a {
@@ -58,13 +53,12 @@ $badge-background: #ebf0ee;
 
     .fas,
     .fab {
-      transition: all .5s ease;
+      transition: all .8s ease;
     }
   }
 
   .main-wrapper {
     width: 86.3%;
-    // margin: 0 auto;
   }
 
   .projects {
@@ -172,6 +166,27 @@ $badge-background: #ebf0ee;
       font: 400 16px/24px "Inter", sans-serif;
     }
   }
+
+  .contact {
+    font: 400 16px/24px "Inter", sans-serif;
+
+    ul {
+      list-style: none;
+      border-bottom: 1px solid $portfolio-main-color;
+    }
+
+    a {
+      color: $portfolio-main-color;
+    }
+
+    .fab {
+      transition: all .8s ease;
+    }
+
+    span {
+      color: $portfolio-main-color;
+    }
+  }
 }
 
 .navbar {
@@ -194,7 +209,6 @@ $badge-background: #ebf0ee;
   .fas,
   .fab {
     &:hover {
-      border: 1px solid $portfolio-main-color;
       background: $portfolio-main-color;
       color: $portfolio-background-color;
     }
@@ -214,6 +228,15 @@ $badge-background: #ebf0ee;
     &:hover {
       animation: pulse;
       animation-duration: .8s;
+    }
+  }
+}
+
+.contact {
+  .fab {
+    &:hover {
+      background: $portfolio-main-color;
+      color: $portfolio-background-color;
     }
   }
 }

@@ -44,7 +44,6 @@
 
 .overall-wrapper .intro ul {
   list-style: none;
-  right: 2.25%;
 }
 
 .overall-wrapper .intro a {
@@ -53,8 +52,8 @@
 
 .overall-wrapper .intro .fas,
 .overall-wrapper .intro .fab {
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
 }
 
 .overall-wrapper .main-wrapper {
@@ -164,6 +163,28 @@
   font: 400 16px/24px "Inter", sans-serif;
 }
 
+.overall-wrapper .contact {
+  font: 400 16px/24px "Inter", sans-serif;
+}
+
+.overall-wrapper .contact ul {
+  list-style: none;
+  border-bottom: 1px solid #c5e9da;
+}
+
+.overall-wrapper .contact a {
+  color: #c5e9da;
+}
+
+.overall-wrapper .contact .fab {
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
+}
+
+.overall-wrapper .contact span {
+  color: #c5e9da;
+}
+
 .navbar .navbar-brand:hover,
 .navbar .nav-link:hover {
   -webkit-animation: pulse;
@@ -178,7 +199,6 @@
 
 .intro .fas:hover,
 .intro .fab:hover {
-  border: 1px solid #c5e9da;
   background: #c5e9da;
   color: #172b4d;
 }
@@ -194,4 +214,9 @@
           animation: pulse;
   -webkit-animation-duration: .8s;
           animation-duration: .8s;
+}
+
+.contact .fab:hover {
+  background: #c5e9da;
+  color: #172b4d;
 }

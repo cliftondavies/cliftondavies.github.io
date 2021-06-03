@@ -72,14 +72,13 @@ $badge-background: #ebf0ee;
   }
 
   .intro {
-    top: 56px;
     width: 69.64%;
     padding-top: 40px;
 
     img {
       border: 2px solid $portfolio-main-color;
-      width: 100px;
-      height: 100px;
+      width: 150px;
+      height: 150px;
       object-fit: cover;
       object-position: 50% 15%;
     }

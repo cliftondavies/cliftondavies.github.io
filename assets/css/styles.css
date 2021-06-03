@@ -70,15 +70,14 @@
 }
 
 .overall-wrapper .intro {
-  top: 56px;
   width: 69.64%;
   padding-top: 40px;
 }
 
 .overall-wrapper .intro img {
   border: 2px solid #c5e9da;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: 50% 15%;

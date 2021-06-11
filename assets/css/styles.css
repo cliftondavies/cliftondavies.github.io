@@ -192,6 +192,7 @@
 
 .overall-wrapper .contact {
   font: 400 16px/24px "Inter", sans-serif;
+  letter-spacing: 1px;
 }
 
 .overall-wrapper .contact ul {

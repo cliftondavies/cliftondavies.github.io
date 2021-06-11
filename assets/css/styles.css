@@ -171,6 +171,7 @@
 .overall-wrapper .about p {
   padding-right: 100px;
   font: 400 16px/28px "Inter", sans-serif;
+  letter-spacing: 1px;
   color: #c5e9da;
 }
 
@@ -186,6 +187,7 @@
 
 .overall-wrapper .about .skill-list {
   font: 400 16px/24px "Inter", sans-serif;
+  letter-spacing: 1px;
 }
 
 .overall-wrapper .contact {

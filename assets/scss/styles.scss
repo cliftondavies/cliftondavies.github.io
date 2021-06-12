@@ -4,6 +4,8 @@ $portfolio-main-color: #c5e9da;
 $badge-background: #ebf0ee;
 
 .overall-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
   background: $portfolio-background-color;
 
   .modal-content {
@@ -58,12 +60,23 @@ $badge-background: #ebf0ee;
   }
 
   .navbar {
+    max-width: 1440px;
+    margin: 0 auto;
     border-bottom: 2px solid $portfolio-main-color;
     background: $portfolio-background-color;
 
     .navbar-brand {
       font: 800 25px/20px "Inter", sans-serif;
       color: $portfolio-main-color;
+    }
+
+    .navbar-toggler {
+      font-size: 25px;
+      color: $portfolio-main-color;
+    }
+
+    .navbar-toggler-icon {
+      height: auto;
     }
 
     .nav-link {
@@ -74,7 +87,7 @@ $badge-background: #ebf0ee;
   }
 
   .intro {
-    width: 69.64%;
+    // width: 88%;
     padding-top: 40px;
 
     img {
@@ -86,7 +99,7 @@ $badge-background: #ebf0ee;
     }
 
     h2 {
-      font: 800 2.8125rem/58px "Inter", sans-serif;
+      font: 800 2.3rem/48px "Inter", sans-serif;
       letter-spacing: 0.37px;
       color: $portfolio-main-color;
     }
@@ -112,6 +125,10 @@ $badge-background: #ebf0ee;
   .projects {
     margin-left: -15px;
     margin-right: -15px;
+
+    .col {
+      margin-bottom: 15px;
+    }
 
     h3 {
       border: 2px solid $portfolio-main-color;
@@ -143,7 +160,7 @@ $badge-background: #ebf0ee;
     }
 
     .card-title {
-      font: 600 22px/32px "Poppins", sans-serif;
+      font: 600 21px/32px "Poppins", sans-serif;
       color: $portfolio-main-color;
     }
 
@@ -175,7 +192,6 @@ $badge-background: #ebf0ee;
     }
 
     p {
-      padding-right: 100px;
       font: 400 16px/28px "Inter", sans-serif;
       letter-spacing: 1px;
       color: $portfolio-main-color;
@@ -216,6 +232,36 @@ $badge-background: #ebf0ee;
 
     span {
       color: $portfolio-main-color;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .intro {
+      width: 88%; /*69.64%; */
+
+      // img {
+      //   width: 150px;
+      //   height: 150px;
+      // }
+
+      h2 {
+        font-size: 2.8125rem;
+        line-height: 58px;
+      }
+    }
+
+    .projects {
+
+      .col {
+        margin-bottom: 0;
+      }
+    }
+
+    .about {
+
+      p {
+        padding-right: 100px;
+      }
     }
   }
 }

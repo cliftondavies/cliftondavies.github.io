@@ -1,3 +1,39 @@
+.navbar .navbar-brand:hover,
+.navbar .nav-link:hover {
+  -webkit-animation: pulse;
+          animation: pulse;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.navbar .navbar-brand:hover {
+  font-size: 25px;
+}
+
+.intro .fas:hover,
+.intro .fab:hover {
+  background: #c5e9da;
+  color: #172b4d;
+}
+
+.projects .btn:hover {
+  border: 1px solid #c5e9da;
+  background: #172b4d;
+  color: #c5e9da;
+}
+
+.projects .project-card:hover {
+  -webkit-animation: pulse;
+          animation: pulse;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+}
+
+.contact .fab:hover {
+  background: #c5e9da;
+  color: #172b4d;
+}
+
 .overall-wrapper {
   max-width: 1440px;
   margin: 0 auto;
@@ -114,8 +150,8 @@
 
 .overall-wrapper .intro .fas,
 .overall-wrapper .intro .fab {
-  -webkit-transition: all .8s ease;
-  transition: all .8s ease;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
 }
 
 .overall-wrapper .main-wrapper {
@@ -231,8 +267,8 @@
 }
 
 .overall-wrapper .contact .fab {
-  -webkit-transition: all .8s ease;
-  transition: all .8s ease;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
 }
 
 .overall-wrapper .contact span {
@@ -274,40 +310,4 @@
   .overall-wrapper .about p {
     padding-right: 100px;
   }
-}
-
-.navbar .navbar-brand:hover,
-.navbar .nav-link:hover {
-  -webkit-animation: pulse;
-          animation: pulse;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-}
-
-.navbar .navbar-brand:hover {
-  font-size: 25px;
-}
-
-.intro .fas:hover,
-.intro .fab:hover {
-  background: #c5e9da;
-  color: #172b4d;
-}
-
-.projects .btn:hover {
-  border: 1px solid #c5e9da;
-  background: #172b4d;
-  color: #c5e9da;
-}
-
-.projects .project-card:hover {
-  -webkit-animation: pulse;
-          animation: pulse;
-  -webkit-animation-duration: .8s;
-          animation-duration: .8s;
-}
-
-.contact .fab:hover {
-  background: #c5e9da;
-  color: #172b4d;
 }

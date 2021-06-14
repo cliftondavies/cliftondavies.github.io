@@ -3,6 +3,58 @@ $portfolio-background-color: #172b4d;
 $portfolio-main-color: #c5e9da;
 $badge-background: #ebf0ee;
 
+.navbar {
+  .navbar-brand,
+  .nav-link {
+    &:hover {
+      animation: pulse;
+      animation-duration: 2s;
+    }
+  }
+
+  .navbar-brand {
+    &:hover {
+      font-size: 25px;
+    }
+  }
+}
+
+.intro {
+  .fas,
+  .fab {
+    &:hover {
+      background: $portfolio-main-color;
+      color: $portfolio-background-color;
+    }
+  }
+}
+
+.projects {
+  .btn {
+    &:hover {
+      border: 1px solid $portfolio-main-color;
+      background: $portfolio-background-color;
+      color: $portfolio-main-color;
+    }
+  }
+
+  .project-card {
+    &:hover {
+      animation: pulse;
+      animation-duration: 0.8s;
+    }
+  }
+}
+
+.contact {
+  .fab {
+    &:hover {
+      background: $portfolio-main-color;
+      color: $portfolio-background-color;
+    }
+  }
+}
+
 .overall-wrapper {
   max-width: 1440px;
   margin: 0 auto;
@@ -113,7 +165,7 @@ $badge-background: #ebf0ee;
 
     .fas,
     .fab {
-      transition: all .8s ease;
+      transition: all 0.8s ease;
     }
   }
 
@@ -226,7 +278,7 @@ $badge-background: #ebf0ee;
     }
 
     .fab {
-      transition: all .8s ease;
+      transition: all 0.8s ease;
     }
 
     span {
@@ -237,29 +289,26 @@ $badge-background: #ebf0ee;
 
   @media screen and (min-width: 375px) {
     .intro {
-
       h2 {
-          font-size: 1.7rem;
-          line-height: 38px;
+        font-size: 1.7rem;
+        line-height: 38px;
       }
     }
   }
 
   @media screen and (min-width: 576px) {
     .contact {
-
       span {
-          font-size: 14px;
+        font-size: 14px;
       }
     }
   }
 
   @media screen and (min-width: 768px) {
     .intro {
-
       h2 {
-          font-size: 2.3rem;
-          line-height: 48px;
+        font-size: 2.3rem;
+        line-height: 48px;
       }
     }
   }
@@ -275,69 +324,15 @@ $badge-background: #ebf0ee;
     }
 
     .projects {
-
       .col {
         margin-bottom: 0;
       }
     }
 
     .about {
-
       p {
         padding-right: 100px;
       }
-    }
-  }
-}
-
-.navbar {
-  .navbar-brand,
-  .nav-link {
-    &:hover {
-      animation: pulse;
-      animation-duration: 2s;
-    }
-  }
-
-  .navbar-brand {
-    &:hover {
-      font-size: 25px;
-    }
-  }
-}
-
-.intro {
-  .fas,
-  .fab {
-    &:hover {
-      background: $portfolio-main-color;
-      color: $portfolio-background-color;
-    }
-  }
-}
-
-.projects {
-  .btn {
-    &:hover {
-      border: 1px solid $portfolio-main-color;
-      background: $portfolio-background-color;
-      color: $portfolio-main-color;
-    }
-  }
-
-  .project-card {
-    &:hover {
-      animation: pulse;
-      animation-duration: .8s;
-    }
-  }
-}
-
-.contact {
-  .fab {
-    &:hover {
-      background: $portfolio-main-color;
-      color: $portfolio-background-color;
     }
   }
 }

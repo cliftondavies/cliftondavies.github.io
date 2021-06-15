@@ -12,14 +12,14 @@
 
 .intro .fas:hover,
 .intro .fab:hover {
-  background: #e2edff;
+  background: #c5e9da;
   color: #172b4d;
 }
 
 .projects .btn:hover {
-  border: 1px solid #e2edff;
+  border: 1px solid #c5e9da;
   background: #172b4d;
-  color: #e2edff;
+  color: #c5e9da;
 }
 
 .projects .project-card:hover {
@@ -30,7 +30,7 @@
 }
 
 .contact .fab:hover {
-  background: #e2edff;
+  background: #c5e9da;
   color: #172b4d;
 }
 
@@ -46,11 +46,11 @@
 
 .overall-wrapper .modal-content .modal-title {
   font: 700 24px/32px "Inter", sans-serif;
-  color: #e2edff;
+  color: #c5e9da;
 }
 
 .overall-wrapper .modal-content span {
-  color: #e2edff;
+  color: #c5e9da;
 }
 
 .overall-wrapper .modal-content .modal-body {
@@ -70,7 +70,7 @@
 
 .overall-wrapper .modal-content .card-text {
   font: 400 15px/26px "Inter", sans-serif;
-  color: #e2edff;
+  color: #c5e9da;
 }
 
 .overall-wrapper .modal-content ul {
@@ -96,18 +96,18 @@
 .overall-wrapper .navbar {
   max-width: 1440px;
   margin: 0 auto;
-  border-bottom: 2px solid #e2edff;
+  border-bottom: 2px solid #c5e9da;
   background: #172b4d;
 }
 
 .overall-wrapper .navbar .navbar-brand {
   font: 800 25px/20px "Inter", sans-serif;
-  color: #e2edff;
+  color: #c5e9da;
 }
 
 .overall-wrapper .navbar .navbar-toggler {
   font-size: 25px;
-  color: #e2edff;
+  color: #c5e9da;
 }
 
 .overall-wrapper .navbar .navbar-toggler-icon {
@@ -117,7 +117,7 @@
 .overall-wrapper .navbar .nav-link {
   font: 600 16px/20px "Inter", sans-serif;
   letter-spacing: 2px;
-  color: #e2edff;
+  color: #c5e9da;
 }
 
 .overall-wrapper .intro {
@@ -125,7 +125,7 @@
 }
 
 .overall-wrapper .intro img {
-  border: 2px solid #e2edff;
+  border: 2px solid #c5e9da;
   width: 150px;
   height: 150px;
   -o-object-fit: cover;
@@ -137,7 +137,7 @@
 .overall-wrapper .intro h2 {
   font: 800 1.4rem/28px "Inter", sans-serif;
   letter-spacing: 0.37px;
-  color: #e2edff;
+  color: #c5e9da;
 }
 
 .overall-wrapper .intro ul {
@@ -145,7 +145,7 @@
 }
 
 .overall-wrapper .intro a {
-  color: #e2edff;
+  color: #c5e9da;
 }
 
 .overall-wrapper .intro .fas,
@@ -168,13 +168,13 @@
 }
 
 .overall-wrapper .projects h3 {
-  border: 2px solid #e2edff;
+  border: 2px solid #c5e9da;
   font: 700 38px/50px "Inter", sans-serif;
-  color: #e2edff;
+  color: #c5e9da;
 }
 
 .overall-wrapper .projects .card {
-  border: 1px solid #e2edff;
+  border: 1px solid #c5e9da;
 }
 
 .overall-wrapper .projects .project-img {
@@ -196,12 +196,12 @@
 
 .overall-wrapper .projects .card-body {
   background: #172b4d;
-  border-top: 1px solid #e2edff;
+  border-top: 1px solid #c5e9da;
 }
 
 .overall-wrapper .projects .card-title {
   font: 600 21px/32px "Poppins", sans-serif;
-  color: #e2edff;
+  color: #c5e9da;
 }
 
 .overall-wrapper .projects .badge {
@@ -214,7 +214,7 @@
 .overall-wrapper .projects .btn {
   font: 500 16px/24px "Inter", sans-serif;
   letter-spacing: 0.03em;
-  background: #e2edff;
+  background: #c5e9da;
   color: #172b4d;
 }
 
@@ -223,28 +223,28 @@
 }
 
 .overall-wrapper .about {
-  border: 2px solid #e2edff;
+  border: 2px solid #c5e9da;
 }
 
 .overall-wrapper .about h4 {
   font: 800 36px/38px "Inter", sans-serif;
-  color: #e2edff;
+  color: #c5e9da;
 }
 
 .overall-wrapper .about p {
   font: 400 16px/28px "Inter", sans-serif;
   letter-spacing: 1px;
-  color: #e2edff;
+  color: #c5e9da;
 }
 
 .overall-wrapper .about li {
   background: #172b4d;
-  color: #e2edff;
+  color: #c5e9da;
 }
 
 .overall-wrapper .about .skill-heading {
   font: 600 20px/21px "Inter", sans-serif;
-  border-bottom-color: #e2edff;
+  border-bottom-color: #c5e9da;
 }
 
 .overall-wrapper .about .skill-list {
@@ -259,11 +259,11 @@
 
 .overall-wrapper .contact ul {
   list-style: none;
-  border-bottom: 2px solid #e2edff;
+  border-bottom: 2px solid #c5e9da;
 }
 
 .overall-wrapper .contact a {
-  color: #e2edff;
+  color: #c5e9da;
 }
 
 .overall-wrapper .contact .fab {
@@ -273,7 +273,7 @@
 
 .overall-wrapper .contact span {
   font-size: 12px;
-  color: #e2edff;
+  color: #c5e9da;
 }
 
 @media screen and (min-width: 375px) {

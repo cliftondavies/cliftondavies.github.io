@@ -1,0 +1,313 @@
+.navbar .navbar-brand:hover,
+.navbar .nav-link:hover {
+  -webkit-animation: pulse;
+          animation: pulse;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.navbar .navbar-brand:hover {
+  font-size: 25px;
+}
+
+.intro .fas:hover,
+.intro .fab:hover {
+  background: #c5e9da;
+  color: #172b4d;
+}
+
+.projects .btn:hover {
+  border: 1px solid #c5e9da;
+  background: #172b4d;
+  color: #c5e9da;
+}
+
+.projects .project-card:hover {
+  -webkit-animation: pulse;
+          animation: pulse;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+}
+
+.contact .fab:hover {
+  background: #c5e9da;
+  color: #172b4d;
+}
+
+.overall-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: #172b4d;
+}
+
+.overall-wrapper .modal-content {
+  background: #172b4d;
+}
+
+.overall-wrapper .modal-content .modal-title {
+  font: 700 24px/32px "Inter", sans-serif;
+  color: #c5e9da;
+}
+
+.overall-wrapper .modal-content span {
+  color: #c5e9da;
+}
+
+.overall-wrapper .modal-content .modal-body {
+  background: #172b4d;
+}
+
+.overall-wrapper .modal-content .modal-img {
+  width: 100%;
+  height: 370px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.overall-wrapper .modal-content .card-body {
+  background: #172b4d;
+}
+
+.overall-wrapper .modal-content .card-text {
+  font: 400 15px/26px "Inter", sans-serif;
+  color: #c5e9da;
+}
+
+.overall-wrapper .modal-content ul {
+  list-style: none;
+}
+
+.overall-wrapper .modal-content .badge {
+  font: 600 13px/16px "Inter", sans-serif;
+  letter-spacing: 0.9px;
+  background: #ebf0ee;
+  color: #172b4d;
+}
+
+.overall-wrapper .modal-content #middle-img {
+  -o-object-position: 35% 9%;
+     object-position: 35% 9%;
+}
+
+.overall-wrapper .header {
+  min-height: 100vh;
+}
+
+.overall-wrapper .navbar {
+  max-width: 1440px;
+  margin: 0 auto;
+  border-bottom: 2px solid #c5e9da;
+  background: #172b4d;
+}
+
+.overall-wrapper .navbar .navbar-brand {
+  font: 800 25px/20px "Inter", sans-serif;
+  color: #c5e9da;
+}
+
+.overall-wrapper .navbar .navbar-toggler {
+  font-size: 25px;
+  color: #c5e9da;
+}
+
+.overall-wrapper .navbar .navbar-toggler-icon {
+  height: auto;
+}
+
+.overall-wrapper .navbar .nav-link {
+  font: 600 16px/20px "Inter", sans-serif;
+  letter-spacing: 2px;
+  color: #c5e9da;
+}
+
+.overall-wrapper .intro {
+  padding-top: 40px;
+}
+
+.overall-wrapper .intro img {
+  border: 2px solid #c5e9da;
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 15%;
+     object-position: 50% 15%;
+}
+
+.overall-wrapper .intro h2 {
+  font: 800 1.4rem/28px "Inter", sans-serif;
+  letter-spacing: 0.37px;
+  color: #c5e9da;
+}
+
+.overall-wrapper .intro ul {
+  list-style: none;
+}
+
+.overall-wrapper .intro a {
+  color: #c5e9da;
+}
+
+.overall-wrapper .intro .fas,
+.overall-wrapper .intro .fab {
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+
+.overall-wrapper .main-wrapper {
+  width: 86.3%;
+}
+
+.overall-wrapper .projects {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.overall-wrapper .projects .col {
+  margin-bottom: 15px;
+}
+
+.overall-wrapper .projects h3 {
+  border: 2px solid #c5e9da;
+  font: 700 38px/50px "Inter", sans-serif;
+  color: #c5e9da;
+}
+
+.overall-wrapper .projects .card {
+  border: 1px solid #c5e9da;
+}
+
+.overall-wrapper .projects .project-img {
+  width: 100%;
+  height: 252px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.overall-wrapper .projects .hap-img {
+  -o-object-position: 45% 50%;
+     object-position: 45% 50%;
+}
+
+.overall-wrapper .projects .learnar-img {
+  -o-object-position: 0% 50%;
+     object-position: 0% 50%;
+}
+
+.overall-wrapper .projects .card-body {
+  background: #172b4d;
+  border-top: 1px solid #c5e9da;
+}
+
+.overall-wrapper .projects .card-title {
+  font: 600 21px/32px "Poppins", sans-serif;
+  color: #c5e9da;
+}
+
+.overall-wrapper .projects .badge {
+  font: 600 13px/16px "Inter", sans-serif;
+  letter-spacing: 0.9px;
+  background: #ebf0ee;
+  color: #172b4d;
+}
+
+.overall-wrapper .projects .btn {
+  font: 500 16px/24px "Inter", sans-serif;
+  letter-spacing: 0.03em;
+  background: #c5e9da;
+  color: #172b4d;
+}
+
+.overall-wrapper .projects ul {
+  list-style: none;
+}
+
+.overall-wrapper .about {
+  border: 2px solid #c5e9da;
+}
+
+.overall-wrapper .about h4 {
+  font: 800 36px/38px "Inter", sans-serif;
+  color: #c5e9da;
+}
+
+.overall-wrapper .about p {
+  font: 400 16px/28px "Inter", sans-serif;
+  letter-spacing: 1px;
+  color: #c5e9da;
+}
+
+.overall-wrapper .about li {
+  background: #172b4d;
+  color: #c5e9da;
+}
+
+.overall-wrapper .about .skill-heading {
+  font: 600 20px/21px "Inter", sans-serif;
+  border-bottom-color: #c5e9da;
+}
+
+.overall-wrapper .about .skill-list {
+  font: 400 16px/24px "Inter", sans-serif;
+  letter-spacing: 1px;
+}
+
+.overall-wrapper .contact {
+  font: 400 16px/24px "Inter", sans-serif;
+  letter-spacing: 1px;
+}
+
+.overall-wrapper .contact ul {
+  list-style: none;
+  border-bottom: 2px solid #c5e9da;
+}
+
+.overall-wrapper .contact a {
+  color: #c5e9da;
+}
+
+.overall-wrapper .contact .fab {
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+
+.overall-wrapper .contact span {
+  font-size: 12px;
+  color: #c5e9da;
+}
+
+@media screen and (min-width: 375px) {
+  .overall-wrapper .intro h2 {
+    font-size: 1.7rem;
+    line-height: 38px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .overall-wrapper .contact span {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .overall-wrapper .intro h2 {
+    font-size: 2.3rem;
+    line-height: 48px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .overall-wrapper .intro {
+    width: 88%;
+  }
+  .overall-wrapper .intro h2 {
+    font-size: 2.8125rem;
+    line-height: 58px;
+  }
+  .overall-wrapper .projects .col {
+    margin-bottom: 0;
+  }
+  .overall-wrapper .about p {
+    padding-right: 100px;
+  }
+}

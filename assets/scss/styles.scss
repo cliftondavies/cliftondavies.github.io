@@ -1,0 +1,338 @@
+// Colors
+$portfolio-background-color: #172b4d;
+$portfolio-main-color: #c5e9da;
+$badge-background: #ebf0ee;
+
+.navbar {
+  .navbar-brand,
+  .nav-link {
+    &:hover {
+      animation: pulse;
+      animation-duration: 2s;
+    }
+  }
+
+  .navbar-brand {
+    &:hover {
+      font-size: 25px;
+    }
+  }
+}
+
+.intro {
+  .fas,
+  .fab {
+    &:hover {
+      background: $portfolio-main-color;
+      color: $portfolio-background-color;
+    }
+  }
+}
+
+.projects {
+  .btn {
+    &:hover {
+      border: 1px solid $portfolio-main-color;
+      background: $portfolio-background-color;
+      color: $portfolio-main-color;
+    }
+  }
+
+  .project-card {
+    &:hover {
+      animation: pulse;
+      animation-duration: 0.8s;
+    }
+  }
+}
+
+.contact {
+  .fab {
+    &:hover {
+      background: $portfolio-main-color;
+      color: $portfolio-background-color;
+    }
+  }
+}
+
+.overall-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: $portfolio-background-color;
+
+  .modal-content {
+    background: $portfolio-background-color;
+
+    .modal-title {
+      font: 700 24px/32px "Inter", sans-serif;
+      color: $portfolio-main-color;
+    }
+
+    span {
+      color: $portfolio-main-color;
+    }
+
+    .modal-body {
+      background: $portfolio-background-color;
+    }
+
+    .modal-img {
+      width: 100%;
+      height: 370px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      background: $portfolio-background-color;
+    }
+
+    .card-text {
+      font: 400 15px/26px "Inter", sans-serif;
+      color: $portfolio-main-color;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    .badge {
+      font: 600 13px/16px "Inter", sans-serif;
+      letter-spacing: 0.9px;
+      background: $badge-background;
+      color: $portfolio-background-color;
+    }
+
+    #middle-img {
+      object-position: 35% 9%;
+    }
+  }
+
+  .header {
+    min-height: 100vh;
+  }
+
+  .navbar {
+    max-width: 1440px;
+    margin: 0 auto;
+    border-bottom: 2px solid $portfolio-main-color;
+    background: $portfolio-background-color;
+
+    .navbar-brand {
+      font: 800 25px/20px "Inter", sans-serif;
+      color: $portfolio-main-color;
+    }
+
+    .navbar-toggler {
+      font-size: 25px;
+      color: $portfolio-main-color;
+    }
+
+    .navbar-toggler-icon {
+      height: auto;
+    }
+
+    .nav-link {
+      font: 600 16px/20px "Inter", sans-serif;
+      letter-spacing: 2px;
+      color: $portfolio-main-color;
+    }
+  }
+
+  .intro {
+    padding-top: 40px;
+
+    img {
+      border: 2px solid $portfolio-main-color;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      object-position: 50% 15%;
+    }
+
+    h2 {
+      font: 800 1.4rem/28px "Inter", sans-serif;
+      letter-spacing: 0.37px;
+      color: $portfolio-main-color;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    a {
+      color: $portfolio-main-color;
+    }
+
+    .fas,
+    .fab {
+      transition: all 0.8s ease;
+    }
+  }
+
+  .main-wrapper {
+    width: 86.3%;
+  }
+
+  .projects {
+    margin-left: -15px;
+    margin-right: -15px;
+
+    .col {
+      margin-bottom: 15px;
+    }
+
+    h3 {
+      border: 2px solid $portfolio-main-color;
+      font: 700 38px/50px "Inter", sans-serif;
+      color: $portfolio-main-color;
+    }
+
+    .card {
+      border: 1px solid $portfolio-main-color;
+    }
+
+    .project-img {
+      width: 100%;
+      height: 252px;
+      object-fit: cover;
+    }
+
+    .hap-img {
+      object-position: 45% 50%;
+    }
+
+    .learnar-img {
+      object-position: 0% 50%;
+    }
+
+    .card-body {
+      background: $portfolio-background-color;
+      border-top: 1px solid $portfolio-main-color;
+    }
+
+    .card-title {
+      font: 600 21px/32px "Poppins", sans-serif;
+      color: $portfolio-main-color;
+    }
+
+    .badge {
+      font: 600 13px/16px "Inter", sans-serif;
+      letter-spacing: 0.9px;
+      background: $badge-background;
+      color: $portfolio-background-color;
+    }
+
+    .btn {
+      font: 500 16px/24px "Inter", sans-serif;
+      letter-spacing: 0.03em;
+      background: $portfolio-main-color;
+      color: $portfolio-background-color;
+    }
+
+    ul {
+      list-style: none;
+    }
+  }
+
+  .about {
+    border: 2px solid $portfolio-main-color;
+
+    h4 {
+      font: 800 36px/38px "Inter", sans-serif;
+      color: $portfolio-main-color;
+    }
+
+    p {
+      font: 400 16px/28px "Inter", sans-serif;
+      letter-spacing: 1px;
+      color: $portfolio-main-color;
+    }
+
+    li {
+      background: $portfolio-background-color;
+      color: $portfolio-main-color;
+    }
+
+    .skill-heading {
+      font: 600 20px/21px "Inter", sans-serif;
+      border-bottom-color: $portfolio-main-color;
+    }
+
+    .skill-list {
+      font: 400 16px/24px "Inter", sans-serif;
+      letter-spacing: 1px;
+    }
+  }
+
+  .contact {
+    font: 400 16px/24px "Inter", sans-serif;
+    letter-spacing: 1px;
+
+    ul {
+      list-style: none;
+      border-bottom: 2px solid $portfolio-main-color;
+    }
+
+    a {
+      color: $portfolio-main-color;
+    }
+
+    .fab {
+      transition: all 0.8s ease;
+    }
+
+    span {
+      font-size: 12px;
+      color: $portfolio-main-color;
+    }
+  }
+
+  @media screen and (min-width: 375px) {
+    .intro {
+      h2 {
+        font-size: 1.7rem;
+        line-height: 38px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 576px) {
+    .contact {
+      span {
+        font-size: 14px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .intro {
+      h2 {
+        font-size: 2.3rem;
+        line-height: 48px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .intro {
+      width: 88%;
+
+      h2 {
+        font-size: 2.8125rem;
+        line-height: 58px;
+      }
+    }
+
+    .projects {
+      .col {
+        margin-bottom: 0;
+      }
+    }
+
+    .about {
+      p {
+        padding-right: 100px;
+      }
+    }
+  }
+}
